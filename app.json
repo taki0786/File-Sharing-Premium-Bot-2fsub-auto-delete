@@ -3,7 +3,7 @@
   "description": "Telegram File Sharing Premium Bot Bot ",
   "logo": "https://graph.org/file/2f461540c83b362772714.jpg",
   "keywords": ["File Sharing Premium Bot", "Mongo DB"],    
-  "repository": "https://github.com/Ahmed789l/File-Sharing-Premium-Bot",
+  "repository": "https://github.com/sagato-bots-official-787/File-Sharing-Premium-Bot-2fsub-auto-delete",
   "success_url": "https://t.me/Madflix_Bots",
   "env": {
       "APP_ID": {
@@ -23,7 +23,7 @@
       },
       "OWNER": {
           "description":"Add Your username here",
-          "value": "",
+          "value": "urr_sanjii",
           "required": true
       },
       "OWNER_ID": {
@@ -33,7 +33,7 @@
       },
       "CHANNEL_ID": {
           "description":"Make a channel (database channel), then make the bot as admin in channel, and it's id",
-          "value": "",
+          "value": "-1002079972903",
           "required": true          
       },
       "FORCE_SUB_CHANNEL": {
@@ -48,7 +48,7 @@
       },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
-          "value": "",
+          "value": "mongodb+srv://zorosan563:zoro@zorocluster00001.evjzkeb.mongodb.net/?retryWrites=true&w=majority&appName=zorocluster00001",
           "required": true
       },
       "DB_NAME":{ 
@@ -68,7 +68,7 @@
       },
       "ADMINS": {
         "description": "A space separated list of user_ids of Admins, they can only create links",
-        "value": "6727550037 7162615398",
+        "value": "6727550037 7162615398 1675155069 1865103287",
         "required": false
       },
       "PROTECT_CONTENT": {
@@ -78,7 +78,7 @@
       },
       "SECONDS": {
         "description": "auto delete in seconds",
-        "value": "1800",
+        "value": "7200",
         "required": false
       }
   },
